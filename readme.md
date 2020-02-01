@@ -8,7 +8,7 @@ Installation:
 2. create virtual environment inside root project:
    python3 -m venv venv
 3. pip install -r requirements.txt
-4. create .env in /rest_orm according to your postgre setting with setting as follow:
+4. create .env in /rest_orm according to your postgre setting with setting as follow: \
     DEBUG = True \
     SECRET_KEY = "pt@uy%2tf0akqi0&a)b$rcu6p2#&o-^c-skl*0-i$2^4nx8=!+" \
     DB_NAME = "YOUR_DATABASE_NAME" \
