@@ -6,7 +6,7 @@ Installation:
 
 1. clone the project
 2. create virtual environment inside root project:
-   python3 -m venv venv
+   python3 -m venv venv and activate the virtual environment
 3. pip install -r requirements.txt
 4. create .env in /rest_orm according to your postgre setting with setting as follow: \
     DEBUG = True \
