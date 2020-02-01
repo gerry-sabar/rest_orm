@@ -1,0 +1,75 @@
+[
+    { "model": "rest.owner",
+        "fields": {
+            "name": "John",
+            "address": "4th Avenue"
+        }
+    },
+    { "model": "rest.car",
+        "fields": {
+            "name": "Porsche",
+            "type": "Cayman",
+            "owner_id": 1,
+            "thief_id": 1,
+            "drivers":[1]
+        }
+    },
+
+    { "model": "rest.owner",
+        "fields": {
+            "name": "Doe",
+            "address": "Wallstreet #1"
+        }
+    },
+    { "model": "rest.car",
+        "fields": {
+            "name": "Bugatti",
+            "type": "Chiron",
+            "owner_id": 2,
+            "thief_id": 2,
+            "drivers":[2]
+        }
+    },
+
+    { "model": "rest.owner",
+        "fields": {
+            "name": "Billy",
+            "address": "Downing Street 2B"
+        }
+    },
+    { "model": "rest.car",
+        "fields": {
+            "name": "Lamborghini",
+            "type": "Aventador",
+            "owner_id": 3,
+            "thief_id": 1,
+            "drivers":[1,2]
+        }
+    },
+
+    { "model": "rest.thief",
+        "fields": {
+            "name": "Lupin",
+            "address": "Japan"
+        }
+    },
+    { "model": "rest.thief",
+        "fields": {
+            "name": "Robin Hood",
+            "address": "England"
+        }
+    },
+
+    { "model": "rest.driver",
+        "fields": {
+            "name": "Jackson",
+            "license_number": "abc-1234"
+        }
+    },
+    { "model": "rest.driver",
+        "fields": {
+            "name": "Samuel",
+            "license_number": "xyz-987"
+        }
+    }
+]
